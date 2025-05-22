@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 from sklearn.preprocessing import StandardScaler
-from src.pipeline.predict_pipeline import CustomData,PredictPipeline
+from src.pipeline.prediction_pipeline import CustomData,PredictionPipeline
 
 application=Flask(__name__)
 
@@ -34,14 +34,15 @@ def predict_datapoint():
         print(pred_df)
         print("Before Prediction")
 
-        predict_pipeline=PredictPipeline()
+        predict_pipeline=PredictionPipeline()
         print("Mid Prediction")
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
         return render_template('home.html',results=results[0])
     
 
-if __name__=="__main__":
-    app.run(host="0.0.0.0")        
+    
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", debug=True)     
 
 
