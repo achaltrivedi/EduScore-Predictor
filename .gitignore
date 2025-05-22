@@ -168,10 +168,16 @@ cython_debug/
 #.idea/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ruff stuff:
 .ruff_cache/
 
 >>>>>>> b0ff2a52fc6d9556f45db0c8a193890b898784a7
+=======
+# Ruff stuff:
+.ruff_cache/
+
+>>>>>>> a84d2f8b1bcca218d1b865299b3045587e437903
 # PyPI configuration file
 .pypirc
