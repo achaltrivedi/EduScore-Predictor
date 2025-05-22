@@ -1,0 +1,11 @@
+*   [33mba53da0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m This is initial commit for SPP
+[31m|[m[32m\[m  
+[31m|[m * [33m5249d60[m This is Deployment Configuration
+* [32m|[m [33mf963c17[m This is data transformation file
+[32m|[m[32m/[m  
+* [33mc1c6a0d[m This is data ingestion file
+* [33md4e8426[m logging and exception
+* [33m6a5d342[m First Commit
+* [33m48c8f78[m First Commit
+* [33ma64f8d4[m Initial commit
+* [33mb0ff2a5[m[33m ([m[1;31morigin/main[m[33m)[m Initial commit
